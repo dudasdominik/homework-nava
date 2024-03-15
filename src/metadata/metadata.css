@@ -1,0 +1,73 @@
+.metadata-details-container {
+    display: grid;
+    background-color: rgba(133, 173, 123, 0.80);
+    border-radius: 5vw;
+    margin: 3vw 3vw 1vw 3vw;
+}
+
+
+.metadata-detail-container{
+    background-color: rgba(133, 173, 123, 0.60);
+    border: solid rgba(43, 75, 63, 0.30);
+    border-radius: 3vw;
+    margin: 3vw 3vw 0 3vw;
+    height: 6.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.metadata-detail-container > h1{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: white; 
+}
+
+.metadata-detail-container > h2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     overflow: visible; 
+     color: white; 
+}
+
+.exit-container{
+    height: 6vh;
+    margin: 2vw;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    justify-items: start;
+    align-items: baseline;
+}
+
+.exit-container > h1 {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     overflow: hidden; 
+     color: white; 
+}
+
+.edit-button {
+    align-self: center;
+    width: 40vw;
+    height: 6vh;
+    border-radius: 8px;
+    background-color: rgba(133, 173, 123, 0.80);
+    border: solid rgba(43, 75, 63, 0.27);
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+.edit-button-container{
+    margin: 1vw;
+    display: grid;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}

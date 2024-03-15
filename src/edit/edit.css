@@ -1,0 +1,165 @@
+.edit-details-container{
+    display: grid;
+    background-color: rgba(133, 173, 123, 0.80);
+    border-radius: 5vw;
+    margin: 3vw 3vw 1vw 3vw;
+}
+
+.edit-container{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 2vh;                                                                       
+}
+
+.edit-detail-container{
+    background-color: rgba(133, 173, 123, 0.60);
+    border-radius: 3vw;
+    margin-bottom: 2vw;
+    height: 8vh;
+    width: 85vw;
+    justify-items: center;
+}
+
+.edit-detail-container > h1{
+    grid-row: 1;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: white; 
+     margin: 2vw;
+}
+
+.text-container{
+
+    margin: 0vw 3vw 3vw 3vw;
+    overflow: hidden;
+}
+
+.text-container > p{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: white;
+     margin-left: 1vw;
+    text-align: left;
+}
+
+.text-container > textarea {
+    height: 3vh;
+    background-color: rgba(133, 173, 123, 1);
+    border: solid rgba(43, 75, 63, 0.14);
+    border-radius: 2vw;
+    width: 75vw;
+    height: -webkit-fill-available;
+}
+
+.image-container{
+    display: flex;
+    margin: 5vw 5vw 2vw 2vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.edit-container > :nth-child(5){
+    height: 100%;
+}
+
+
+.edit-container > :nth-child(5) > .text-container{
+    height: 14vh;
+}
+
+.edit-container > :nth-child(5) > .text-container > p{
+    height: 11vh
+}
+
+.other-details{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    margin: 1vw 1vw 1vw 6vw;
+}
+
+.akr-codes > section > p{
+    font-size: 8px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: black ;
+     margin: 0vw 0vw 1vw 0vw;
+     margin-right: 1vw;
+}
+
+.photographer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+}
+
+.akr-codes > section > :nth-child(1){
+    font-weight: bold;
+}
+
+.photographer-container > p{
+    font-size: 8px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: black ;
+     margin-right: 1vw;
+}
+
+.people-container{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+}
+
+.people-container > p{
+    font-size: 8px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: black ;
+     margin-right: 1vw;
+}
+
+hr{
+    width: 85vw;
+    margin: 0;
+}
+
+.akr-codes{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.akr-codes > section{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+}
+
+.save-button {
+    align-self: center;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 8px;
+    background-color: rgba(133, 173, 123, 0.80);
+    border: solid rgba(43, 75, 63, 0.27);
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom-edit-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5vw;
+}

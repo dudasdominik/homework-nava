@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card-container{
+    background-color: rgba(133, 173, 123, 0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 8px;
+    width: 189px;
+    height: 359px;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media (max-width: 391px) {
+    .card-container{
+        width: 170px;
+        height: 350x;
+    }
+
+}
+
+.details-container{
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    overflow: auto;
+}
+
+.picture-container {
+    padding: 1vh;
+}
+
+.id-container{
+    display: flex;
+    gap: 3%;
+    background-color: rgba(133, 173, 123, 0.6);
+    padding: 4px;
+    border: solid rgba(43, 75, 63, 0.27);
+    border-radius: 9px;
+    justify-content: space-around;
+    width: 80%;
+    height: 24px;
+    align-items: baseline;
+    overflow: hidden;
+}
+
+.id-container > h1{
+   font-size: 8px;
+   font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden; 
+    margin-top: -2px;
+    color: white; 
+}
+
+.id-section{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+ }
+
+.id-section > h2{
+    font-size: 6px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin-top: -2px; 
+    color: white;
+ }
+
+.id-section > h3{
+    font-size: 4px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden; 
+    margin-top: -3px; 
+    color: white;
+ }
+
+ .picture-container:hover{
+    transform: scale(1.25);
+ }
+
+ a{
+    text-decoration: none;
+    color: white;
+ }

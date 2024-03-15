@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.desktop-header-container{
+    display: grid;
+    height: 20vh;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    background-color: rgba(1, 152, 117, 1);
+
+}
+
+
+.desktop-header-buttons-container{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.desktop-header-buttons-container > button {
+    background-color: rgba(1, 106, 82, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden; 
+    margin: 1vw;
+    color: white; 
+
+}
+
+.desktop-header-search-container{
+    grid-row: 2;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop-header-search-container > button {
+    background-color: rgba(1, 106, 82, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden; 
+    color: white; 
+}
+
+.desktop-header-search-container > input {
+    height: 2vh;
+    background-color: rgba(1, 106, 82, 1);
+    border: white 1px solid;
+}
+
+.desktop-header-search-container > input > text{
+    color: white;
+}
+
+.desktop-numbers-found{
+    grid-row: 3;
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+}
+
+.desktop-numbers-found > h2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     overflow: hidden; 
+     margin-top: 1vh;
+     color: white; 
+}
+
+.desktop-sort-button > img{
+    width: 5vw;
+    height: 10vh;
+}
+
+.plus-container > img {
+    width: 5vw;
+    height: 5vh;
+}
+
+.desktop-header-filter-container > button {
+    background-color: rgba(1, 106, 82, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden; 
+    color: white; 
+}
+
+
+.desktop-header-filter-container {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: space-between;
+    grid-column: 3;
+    grid-row: 1 / s 2;
+}

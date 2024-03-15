@@ -1,0 +1,15 @@
+.desktop-sidebar-container{
+    background-color: #EEEEEE;
+    width: 18vw;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+}
+
+.desktop-sorting-cards-container{
+    display: grid;
+    justify-items: center;
+    margin: 1vw;
+    gap: 1vw;
+    grid-template-columns: 1fr;
+}

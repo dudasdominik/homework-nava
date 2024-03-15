@@ -1,0 +1,36 @@
+.desktop-row-container {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    overflow: auto;
+    width: 82%;
+}
+
+.desktop-container {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    height: 100%;
+    margin: 0;
+}
+
+.desktop-row-first-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+}
+
+.desktop-row-first-item > div > h2{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     overflow: hidden; 
+     margin-top: 1vh;
+     color: white;
+}
+
+.desktop-row-first-item > div {
+    border-right: 1px solid black;
+    margin-right: 0;
+}

@@ -1,0 +1,85 @@
+.desktop-sorting-card-container{
+    display: grid;
+    width: 15vw;
+    background-color: white;
+    align-items: center;
+    border-radius: 1vw;
+    height: 12vh;
+}
+
+.desktop-sorting-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.desktop-sorting-card-status {
+    display: grid;
+    width: 8vw;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.desktop-sorting-card-status > img {
+    width: 7vw;
+    height: 3vh;
+}
+
+.desktop-sorting-card-x > img {
+    width: 7vw;
+    height: 3vh;
+
+}
+
+
+.desktop-sorting-details{
+    display: flex;
+    justify-content: space-around;
+}
+
+.desktop-sorting-details > h3{
+    font-size: 7px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     overflow: hidden; 
+     color: #B0C4C0; 
+}
+
+.desktop-sort-name{
+    background-color: rgba(1, 106, 82, 1);
+    border-radius: 1vw;
+    width: 31px;
+    height: 24px;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.desktop-sort-name > h3{
+    font-size: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+    color: white;
+}
+
+.desktop-sort-value{
+    background-color: rgba(176, 196, 192, 1);
+    grid-row: 1 / span 2;
+    border-radius: 1vw;
+    text-align: center;
+    width: 53px;
+    height: 24px;
+    margin-right: 2px;
+}
+
+.desktop-sort-value > h3{
+    font-size: 7px;
+    font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     overflow: hidden; 
+     color: white; 
+}
